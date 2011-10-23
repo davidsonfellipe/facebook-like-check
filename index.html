@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Facebook like stats</title>
+        <link rel="stylesheet" href="reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+        <div class="wrapper">
+            
+            <h1 class="header"><span class="logo">social media stats</span> <span class="tool">. facebook like check</span></h1>
+            
+            <div class="container tabs">  
+                <ul class="tabs-groups">  
+                    <li class="tab tab-urls tab-active" rel=".content-urls">urls</li>  
+                    <li class="tab tab-sitemap" rel=".content-sitemap">sitemap</li>
+                </ul>   
+                <div class="content content-urls content-active">  
+                    <textarea id="urls">http://www.arrobazona.com/carros-mais-caros-brasil-lucro/
+http://www.arrobazona.com/rua-mais-bonita-do-mundo/
+http://www.arrobazona.com/fantasias-curiosas-do-carnaval/
+http://www.arrobazona.com/bebedouro-de-coca-cola/
+http://www.arrobazona.com/dicas-dormir-cedo-ou-rapido/
+http://www.arrobazona.com/os-paises-ateus-sao-os-mais-pacificos/
+http://www.arrobazona.com/70-artes-em-papel/
+</textarea>
+                    <span class="helper">enter only one url per line</span>
+                    <button id="get-info">submit</button>
+                </div>  
+                <div class="content content-sitemap">  
+                    <input class="sitemap-input">
+                    <span class="helper">enter url of your sitemap</span>
+                    <button class="get-info-by-sitemap">submit</button>
+                </div>  
+            </div>
+            
+            <div id="result">
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="jquery.tablesorter.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="handlerJSONFacebook.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
