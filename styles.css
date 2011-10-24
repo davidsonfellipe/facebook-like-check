@@ -23,11 +23,17 @@ table,
     text-align:center;
     width: 660px;
 }
-.tool{
+.tool,
+.fork-me{
     color: #999;
     font-size: 12px;
     font-style: italic;
     font-weight: normal;
+}
+.fork-me{
+    font-style: normal;
+    display:block;
+    text-align:right;
 }
 td, th{
     padding:10px;
@@ -36,6 +42,9 @@ td, th{
 }
 th{
     cursor:pointer;
+}
+th:hover{
+    background-color:#fff;
 }
 .table-content:hover{
     background-color:#fff;
