@@ -3,17 +3,34 @@
     <head>
         <meta charset="utf-8">
         <title>facebook like check</title>
+        <meta name="description" content="check the amount of likes and shares on facebook of a set of URLs or a sitemap."/>
+        
+        <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy|PT+Sans' rel='stylesheet' type='text/css'>        
         <link rel="stylesheet" href="c/all_min.css" type="text/css" media="screen" charset="utf-8">
     </head>
     <body>
+        			
         <div class="wrapper">
             
-            <h1 class="header"><span class="logo">facebook like check</span> <span class="tool">check the number of likes and shares a set of URLs or a sitemap.</span></h1>
-                            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.fellipe.com%2Fapps%2Ffacebook-like-check%2F&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:25px;" allowTransparency="true"></iframe>
+            <h1 class="header">
+                <span class="logo">facebook like check</span>
+                <span class="tool">check the amount of likes and shares on facebook of a set of URLs or a sitemap.</span>
+                <div class="fb-likes">
+                    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.fellipe.com%2Fapps%2Ffacebook-like-check%2F&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=25" scrolling="no" frameborder="0" class="fb-likes" allowTransparency="true"></iframe><br>
+                </div>
+                <div class="gplus">
+                    <g:plusone size="small" href="http://www.fellipe.com/apps/facebook-like-check/"></g:plusone>
+                </div>
+                <div class="tweet">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fellipe.com/apps/facebook-like-check/" data-count="horizontal">Tweet</a>
+                </div>
+                
+            </h1>
+            
             <div class="container tabs">  
                 <ul class="tabs-groups">  
-                    <li class="tab tab-urls tab-active" rel=".content-urls">urls</li>  
-                    <li class="tab tab-sitemap" rel=".content-sitemap">sitemap</li>
+                    <li class="tab tab-urls tab-active" rel=".content-urls">with urls</li>  
+                    <li class="tab tab-sitemap" rel=".content-sitemap">with sitemap</li>
                 </ul>
                 <div class="content content-urls content-active">  
                     <textarea id="urls">http://www.arrobazona.com/carros-mais-caros-brasil-lucro/
@@ -40,7 +57,9 @@ http://www.arrobazona.com/70-artes-em-papel/
             <div class="loading">
             </div>
             
-            <span class="fork-me">fork me on <a href="https://github.com/davidsonfellipe/facebook-like-check">github</a></span>
+            <span class="fork-me">→ fork me on <a href="https://github.com/davidsonfellipe/facebook-like-check">github</a> → 
+                developed by <a href="http://fellipe.com">davidson fellipe</a> / <a href="http://twitter.com/davidsonfellipe">twitter</a>
+            </span>
         </div>
         <script src="j/all_min.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript">
@@ -58,5 +77,8 @@ http://www.arrobazona.com/70-artes-em-papel/
 
             })();
         </script>
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        
+        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
     </body>
 </html>
