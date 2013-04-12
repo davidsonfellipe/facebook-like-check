@@ -1,4 +1,4 @@
-A simple app to check the number of likes and shares a set of
+App for check the number of likes and shares a set of
 URLs or a sitemap.
 
-URL: http://fellipe.com/apps/facebook-like-check/
+  URL: http://fellipe.com/apps/facebook-like-check/
