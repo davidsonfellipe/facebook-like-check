@@ -1,4 +1,6 @@
 # No longer maintained
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 
 ## Facebook like check# #
 App for check the number of likes and shares a set of
